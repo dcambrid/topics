@@ -1,0 +1,19 @@
+{
+  "name": "topics",
+  "version": "1.0.0",
+  "description": "A simple API for looking up topics from a list",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Darren Cambridge",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.15.5",
+    "mongodb": "^2.2.31"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
